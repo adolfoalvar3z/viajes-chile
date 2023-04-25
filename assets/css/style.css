@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+
+h2 {
+    font-family: 'Merienda';
+    font-size: 3rem;
+}
+h3 {
+    font-family: 'Merienda';
+}
+hr {
+    width: 10%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, hsla(202, 100%, 50%, 0.432), rgba(255, 255, 255, 0.75), hsla(202, 100%, 50%, 0.432));
+}
+html{
+    scroll-behavior: smooth;
+
+}
