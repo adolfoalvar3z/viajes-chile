@@ -1,2 +1,2 @@
 # viajes-chile
- proyecto final modulo funda,mentos frontend
+ proyecto final modulo fundamentos frontend
