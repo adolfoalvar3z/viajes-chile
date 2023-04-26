@@ -1,19 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    font-family: 'Montserrat';
+
+}
+.titulo{
+    font-family: 'Merienda';
+
+}
 h2 {
     font-family: 'Merienda';
     font-size: 3rem;
 }
+
 h3 {
     font-family: 'Merienda';
 }
+
 hr {
     width: 10%;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, hsla(202, 100%, 50%, 0.432), rgba(255, 255, 255, 0.75), hsla(202, 100%, 50%, 0.432));
 }
-html{
-    scroll-behavior: smooth;
 
+html {
+    scroll-behavior: smooth;
 }
+
+#destacados img {
+    height: 202px;
+}
+
+footer i:hover {
+    color: rgb(0, 162, 255);
+    font-size: 50px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    /* para movil para que no se vea tan feo: */
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.396) !important;
+    }
+  }
